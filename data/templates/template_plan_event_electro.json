@@ -1,0 +1,25 @@
+{
+  "AreaKey": "electro",
+  "Template":
+  {
+    "Incident": {
+      "TypeEvents": "Автотест_01",
+      "FullEvent": "Инцидент в сфере Электроснабжение : Автотест_01",
+      "TypeStatus": "В работе",
+      "TypeSIS": "коты",
+      "Crew": "ЛС(1)",
+      "CompoundEvent": "Копание",
+      "CurrentStatus": "В работе",
+      "SourcesFinance": "Банк",
+      "PriceProject": "123",
+      "Period": "24-07-2023 17:38",
+      "TypePlan": "MAIN",
+      "Function": "Сотрудник",
+      "SourcesFinanceCh": "Спонсор",
+      "PriceProjectCh": "1500",
+      "Organization": "01_Автотест_Организация"
+    },
+    "Alarm": {
+    }
+  }
+}

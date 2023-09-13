@@ -1,0 +1,31 @@
+{
+  "AreaKey": "drainage",
+  "Template":
+  {
+    "Object_GKH":
+    {
+      "TypeGKH": "Водоотведение",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Пушкина",
+        "House": "14"
+      },
+      "FullAddress": "г Волгоград  ул. им. Пушкина  влд. 14",
+      "Stage": "Этап очистки сточных вод",
+      "Object": "Очистные сооружения",
+      "Owner": "01_Автотест_Организация",
+      "TypeObject": "Для поверхностных сточных вод",
+      "FullName": "01_Автотест_Организация, тел. дежурной службы 1111999",
+      "NameObject": "01_Автотест_Объект_Водоотведение_ЖКХ",
+      "EnergyDistrict": "Правосторонний"
+    },
+    "Main_Properties":
+    {
+      "CurrentStatus": "Эксплуатация",
+      "YearOperating": "1901",
+      "OtherYear": "2299",
+      "OtherStatus": "Резерв"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "AreaKey": "all",
+  "Template":
+  {
+    "Start":
+    {
+      "Municipality":
+      {
+        "Region": "Ленинский",
+        "Locality": "Каршевитское",
+        "ShortValue": "Муниципальный район Ленинский",
+        "FullValue": "Муниципальный район Ленинский с.п. Каршевитское"
+      },
+      "PeriodFrom": "2023",
+      "StatusHeatingSeason": "Начат",
+      "StartPlanFullDate": "16-10-2023 12:25",
+      "StartRealFullDate": "17-10-2023 13:45",
+      "StartAddInfo": "Автотест - начало",
+      "StartReasons": "Дополнительная проверка системы"
+    },
+    "Final":
+    {
+      "FinalPlanFullDate": "15-04-2024 10:00",
+      "FinalRealFullDate": "20-04-2024 12:05",
+      "FinalAddInfo": "Автотест - окончание",
+      "FinalReasons": "Температура воздуха была ниже нормы",
+      "FinalPlanFullDateEdit": "20-04-2024 10:00",
+      "FinalRealFullDateEdit": "23-04-2024 18:00",
+      "FinalAddInfoEdit": "Автотест - редактирование",
+      "FinalReasonsEdit": "Шел снег и было холодно"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "AreaKey": "simple",
+  "Template":
+  {
+    "LiveHouse":
+    {
+      "TypeHouse": "Жилой дом (индивидуально-определенное здание)",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Ленинабадская",
+        "House": "10"
+      },
+      "FullAddress": "г Волгоград ул. Ленинабадская влд. 10",
+      "TemporaryAdd": "г Волгоград  ул. Ленинабадская  влд. 10",
+      "Stage": "Эксплуатируемый",
+      "CountOfFloors": "1",
+      "HouseArea": "16.9",
+      "YearOfConstruction": "1860"
+    },
+    "ServiceInformation":
+    {
+      "ExploitationOrganisation": "01_Автотест_Организация",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Ленинабадская",
+        "House": "10"
+      }
+    }
+  }
+}

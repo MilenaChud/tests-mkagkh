@@ -1,0 +1,234 @@
+{
+  "AreaKey": "electro",
+  "Template":
+  {
+    "StartData":
+    {
+      "Area": "Электроснабжение",
+      "DateTime": "",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Пушкина",
+        "House": "12",
+        "Full": "г Волгоград  ул. им. Пушкина  влд. 12"
+      },
+      "Source": "По телефону",
+      "Description": "Автотест"
+    },
+
+    "Properties":
+    {
+      "Type": "Авария",
+      "SolutionDateTime": "",
+      "Sign": "Неисправности оборудования и линий электропередач, вызвавшие перерыв электроснабжения одного и более потребителей третьей категории продолжительностью более 24 часов, если нарушение электроснабжения произошло по вине персонала предприятия электрических сетей",
+      "ParentEvent": "",
+      "Weather":
+      {
+        "Description": "Ясно",
+        "WindSpeed": "5",
+        "WindDirection": "северный",
+        "Temperature": "10",
+        "Source": "Автотест"
+      },
+      "EmergencyData":
+      {
+        "Injured": "",
+        "Lost": ""
+      },
+      "Status": "В работе"
+    },
+
+    "Object":
+    {
+      "Name": "Автотест_ОбъектЖКХ_Электростанция"
+    },
+
+    "Limitations":
+    {
+      "Full":
+      {
+        "Type": "Полное",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Пушкина",
+            "House": "12",
+            "Full": "г Волгоград ул. им. Пушкина влд. 12"
+          }
+        ],
+        "MajorObjects": "Объект 01, Объект 02",
+        "EmergencyData":
+        {
+          "MultiHouses": "0",
+          "MultiPeople": "0",
+          "SingleHouses": "2",
+          "SinglePeople": "10"
+        },
+        "OtherObjects": "Другой объект 01"
+      },
+      "Partial":
+      {
+        "Type": "Частичное",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Пушкина",
+            "House": "13",
+            "Full": "г Волгоград ул. им. Пушкина влд. 13"
+          },
+          {
+            "Place": "Волгоград",
+            "Street": "Пушкина",
+            "House": "7",
+            "Full": "г Волгоград ул. им. Пушкина влд. 7"
+          }
+        ],
+        "MajorObjects": "Объект 03, Объект 04",
+        "EmergencyData":
+        {
+          "MultiHouses": "0",
+          "MultiPeople": "0",
+          "SingleHouses": "0",
+          "SinglePeople": "0"
+        },
+        "OtherObjects": "Другой объект 02"
+      },
+      "Related":
+      {
+        "Type": "Связанное",
+        "Area": "Холодное водоснабжение",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Пушкина",
+            "House": "14",
+            "Full": "г Волгоград ул. им. Пушкина влд. 14"
+          }
+        ],
+        "MajorObjects": "Объект 05, Объект 06",
+        "EmergencyData":
+        {
+          "MultiHouses": "1",
+          "MultiPeople": "100",
+          "SingleHouses": "0",
+          "SinglePeople": "0"
+        },
+        "OtherObjects": "Другой объект 03"
+      }
+    },
+
+    "Additional":
+    {
+      "Responsibles":
+      [
+        {
+          "Organization": "01_Автотест_Организация",
+          "Position": "Сотрудник",
+          "FullName": "Автотестов_01 Автотест Автотестович"
+        },
+        {
+          "Organization": "01_Автотест_Организация",
+          "Position": "Директор",
+          "FullName": "Автотестов_02 Автотест Автотестович"
+        }
+      ],
+      "Inputs":
+      {
+        "OtherInfo": "Автотест - дополнительная информация",
+        "InfoSource": "Автотест Автотестов_01 т.: 0111111",
+        "Plans": ""
+      }
+    },
+
+    "Files":
+    {
+      "File_PNG": "autotest_upload_event.png",
+      "File_JPG": "autotest_upload_event.jpg",
+      "File_PDF": "autotest_upload_1.pdf"
+    },
+
+    "Emergency":
+    {
+      "Municipality": "Волгоград",
+      "Scale": "ЧС местного (муниципального) масштаба",
+      "Zone": "Автотест - границы зоны ЧС",
+      "Reasons": "Автотест - причины и основания введения режима ЧС",
+      "EmergencyOn":
+      {
+        "DateTime": "",
+        "Authority": "00_Автотест_Организация_Главная",
+        "Resolution": "Автотест - Введение режима ЧС"
+      },
+      "EmergencyOff":
+      {
+        "DateTime": "",
+        "Authority": "00_Автотест_Организация_Главная",
+        "Resolution": "Автотест - Снятие режима ЧС"
+      },
+      "Plans": "",
+      "Status": "В работе"
+    },
+
+    "Agree":
+    {
+      "Approve":
+      {
+        "Username": "autotest_approve",
+        "Organization": "00_Автотест_Организация_Главная",
+        "Position": "Согласующий",
+        "FullName": "Автотестов_Согласование Автотест Автотестович",
+        "History":
+        {
+          "Wait":
+          {
+            "Phase": "Согласование",
+            "Status": "Ожидает согласования",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Согласование Автотест Автотестович"
+          },
+          "Accepted":
+          {
+            "Phase": "Согласование",
+            "Status": "Согласовано",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Согласование Автотест Автотестович"
+          }
+        }
+      },
+      "Confirm":
+      {
+        "Username": "autotest_confirm",
+        "Organization": "00_Автотест_Организация_Главная",
+        "Position": "Утверждающий",
+        "FullName": "Автотестов_Утверждение Автотест Автотестович",
+        "History":
+        {
+          "Wait":
+          {
+            "Phase": "Утверждение",
+            "Status": "Ожидание утверждения",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Утверждение Автотест Автотестович"
+          },
+          "Accepted":
+          {
+            "Phase": "Утверждение",
+            "Status": "Утверждено",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Утверждение Автотест Автотестович"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "AreaKey": "all",
+  "Template":
+  {
+    "Username": "autotest_superuser_new",
+    "Password": "0",
+    "PasswordNew": "1",
+    "PasswordConfirm": "1",
+    "Email": "autotest_superuser_new@pisem.net",
+    "LastName": "Суперавтотестов",
+    "FirstName": "Суперавтотест",
+    "MiddleName": "Суперавтотестович",
+    "Phone": "7777777",
+    "MobilePhone": "+79997777777"
+  }
+}

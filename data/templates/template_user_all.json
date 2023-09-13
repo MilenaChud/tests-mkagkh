@@ -1,0 +1,19 @@
+{
+  "AreaKey": "all",
+  "Template":
+  {
+    "Username": "autotest_user_new",
+    "Password": "0",
+    "PasswordNew": "1",
+    "PasswordConfirm": "1",
+    "Role": "Должностное лицо",
+    "Email": "autotest_user_new@pisem.net",
+    "LastName": "Автотестов",
+    "FirstName": "Автотест",
+    "MiddleName": "Автотестович",
+    "Organization": "02_Автотест_Организация",
+    "Position": "Сотрудник",
+    "Phone": "1234567",
+    "MobilePhone": "+79991234567"
+  }
+}

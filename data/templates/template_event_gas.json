@@ -1,0 +1,229 @@
+{
+  "AreaKey": "gas",
+  "Template":
+  {
+    "StartData":
+    {
+      "Area": "Газоснабжение",
+      "DateTime": "",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Толстого",
+        "House": "7б",
+        "Full": "г Волгоград  ул. им. Льва Толстого  д. 7б"
+      },
+      "Source": "Обращение гражданина",
+      "Description": "Автотест"
+    },
+
+    "Properties":
+    {
+      "Type": "Авария",
+      "SolutionDateTime": "",
+      "Sign": "Разрушение или повреждение сооружений, в которых находятся объекты, которое привело к прекращению газоснабжения потребителей",
+      "ParentEvent": "",
+      "Weather":
+      {
+        "Description": "Облачно",
+        "WindSpeed": "12",
+        "WindDirection": "западный",
+        "Temperature": "15",
+        "Source": "Автотест"
+      },
+      "EmergencyData":
+      {
+        "Injured": "",
+        "Lost": ""
+      },
+      "Status": "В работе"
+    },
+
+    "Object":
+    {
+      "Name": "Автотест_ОбъектЖКХ_ГРС"
+    },
+
+    "Limitations":
+    {
+      "Full":
+      {
+        "Type": "Полное",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Толстого",
+            "House": "7б",
+            "Full": "г Волгоград ул. им. Льва Толстого д. 7б"
+          }
+        ],
+        "MajorObjects": "Объект 01, Объект 02",
+        "EmergencyData":
+        {
+          "MultiHouses": "1",
+          "MultiPeople": "150",
+          "SingleHouses": "0",
+          "SinglePeople": "0"
+        },
+        "OtherObjects": "Другой объект 01"
+
+      },
+      "Partial":
+      {
+        "Type": "Частичное",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Толстого",
+            "House": "5а",
+            "Full": "г Волгоград ул. им. Льва Толстого д. 5а"
+          }
+        ],
+        "MajorObjects": "Объект 03, Объект 04",
+        "EmergencyData":
+        {
+          "MultiHouses": "0",
+          "MultiPeople": "0",
+          "SingleHouses": "0",
+          "SinglePeople": "0"
+        },
+        "OtherObjects": "Другой объект 02"
+      },
+      "Related":
+      {
+        "Type": "Связанное",
+        "Area": "Теплоснабжение и горячее водоснабжение",
+        "DateTimeOn": "",
+        "DateTimeOff": "",
+        "AddressesList":
+        [
+          {
+            "Place": "Волгоград",
+            "Street": "Толстого",
+            "House": "1а",
+            "Full": "г Волгоград ул. им. Льва Толстого д. 1а"
+          }
+        ],
+        "MajorObjects": "Объект 05, Объект 06",
+        "EmergencyData":
+        {
+          "MultiHouses": "0",
+          "MultiPeople": "0",
+          "SingleHouses": "1",
+          "SinglePeople": "5"
+        },
+        "OtherObjects": "Другой объект 03"
+      }
+    },
+
+    "Additional":
+    {
+      "Responsibles":
+      [
+        {
+          "Organization": "01_Автотест_Организация",
+          "Position": "Сотрудник",
+          "FullName": "Автотестов_01 Автотест Автотестович"
+        },
+        {
+          "Organization": "01_Автотест_Организация",
+          "Position": "Директор",
+          "FullName": "Автотестов_02 Автотест Автотестович"
+        }
+      ],
+      "Inputs":
+      {
+        "OtherInfo": "Автотест - дополнительная информация",
+        "InfoSource": "Автотест Автотестов_01 т.: 0111111",
+        "Plans": ""
+      }
+    },
+
+    "Files":
+    {
+      "File_PNG": "autotest_upload_event.png",
+      "File_JPG": "autotest_upload_event.jpg",
+      "File_PDF": "autotest_upload_1.pdf"
+    },
+
+    "Emergency":
+    {
+      "Municipality": "Волгоград",
+      "Scale": "ЧС локального масштаба",
+      "Zone": "Автотест - границы зоны ЧС",
+      "Reasons": "Автотест - причины и основания введения режима ЧС",
+      "EmergencyOn":
+      {
+        "DateTime": "",
+        "Authority": "00_Автотест_Организация_Главная",
+        "Resolution": "Автотест - Введение режима ЧС"
+      },
+      "EmergencyOff":
+      {
+        "DateTime": "",
+        "Authority": "00_Автотест_Организация_Главная",
+        "Resolution": "Автотест - Снятие режима ЧС"
+      },
+      "Plans": "",
+      "Status": "В работе"
+    },
+
+    "Agree":
+    {
+      "Approve":
+      {
+        "Username": "autotest_approve",
+        "Organization": "00_Автотест_Организация_Главная",
+        "Position": "Согласующий",
+        "FullName": "Автотестов_Согласование Автотест Автотестович",
+        "History":
+        {
+          "Wait":
+          {
+            "Phase": "Согласование",
+            "Status": "Ожидает согласования",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Согласование Автотест Автотестович"
+          },
+          "Accepted":
+          {
+            "Phase": "Согласование",
+            "Status": "Согласовано",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Согласование Автотест Автотестович"
+          }
+        }
+      },
+      "Confirm":
+      {
+        "Username": "autotest_confirm",
+        "Organization": "00_Автотест_Организация_Главная",
+        "Position": "Утверждающий",
+        "FullName": "Автотестов_Утверждение Автотест Автотестович",
+        "History":
+        {
+          "Wait":
+          {
+            "Phase": "Утверждение",
+            "Status": "Ожидание утверждения",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Утверждение Автотест Автотестович"
+          },
+          "Accepted":
+          {
+            "Phase": "Утверждение",
+            "Status": "Утверждено",
+            "DeclineReason": "",
+            "Responsible": "Автотестов_Утверждение Автотест Автотестович"
+          }
+        }
+      }
+    }
+  }
+}

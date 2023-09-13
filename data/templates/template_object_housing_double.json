@@ -1,0 +1,32 @@
+{
+  "AreaKey": "double",
+  "Template":
+  {
+    "LiveHouse":
+    {
+      "TypeHouse": "Многоквартирный дом",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Пушкина",
+        "House": "14"
+      },
+      "FullAddress": "г Волгоград ул. им. Пушкина влд. 14",
+      "TemporaryAdd": "г Волгоград  ул. им. Пушкина  влд. 14",
+      "Stage": "Эксплуатируемый",
+      "CountOfFloors": "5",
+      "HouseArea": "100",
+      "YearOfConstruction": "1954"
+    },
+    "Data from":
+    {
+      "ExploitationOrganisation": "01_Автотест_Организация",
+      "Address":
+      {
+        "Place": "Волгоград",
+        "Street": "Ленинабадская",
+        "House": "14"
+      }
+    }
+  }
+}

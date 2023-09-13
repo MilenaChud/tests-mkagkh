@@ -1,0 +1,28 @@
+{
+    "AreaKey": "public_utilities",
+    "Template":
+        {
+            "StartData":
+                {
+                    "Area": "Коммунальное хозяйство",
+                    "NameDocument": "Автотест_сентябрь",
+                    "NumberDocument": "13579",
+                    "DatePublish": "16-10-2023 12:25",
+                    "DescribeDocument": "Автотест_без_котиков",
+                    "TypeDocument": "НПА",
+                    "KindDocument": "Протокол",
+                    "AreaSearch": "Наименование документа"
+                },
+            "EditeData":
+                {
+                    "Area": "Коммунальное хозяйство",
+                    "NameDocument": "Автотест_сентябрь1",
+                    "NumberDocument": "135798",
+                    "DatePublish": "16-10-2023 12:27",
+                    "DescribeDocument": "Автотест_без_кошечек",
+                    "TypeDocument": "Справочный документ",
+                    "KindDocument": "Административный регламент",
+                    "AreaSearch": "Наименование документа"
+                }
+        }
+}

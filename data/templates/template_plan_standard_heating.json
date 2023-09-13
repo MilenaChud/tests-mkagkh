@@ -1,0 +1,22 @@
+{
+  "AreaKey": "heating",
+  "Template":
+  {
+    "Incident": {
+      "TypeEvents": "Инцидент",
+      "TypeEventsSelect": "INCIDENT",
+      "SphereGKH": "Теплоснабжение и горячее водоснабжение",
+      "AccountingSignsButton": "Перерыв теплоснабжения иных потребителей (кроме первой категории) на срок до 6 часов в отопительный период",
+      "NameEvent": "Автотест_StandardPlans",
+      "TypePlanEvent": "Основной",
+      "TypePlanEventInput": "MAIN",
+      "ThingsForEvent": "Коты и лопаты",
+      "ThingsForEventChange": "Коты и лопаты и котята",
+      "SourceFinance": "Банк",
+      "SourceFinanceChange": "Государство",
+      "PriceTasks": "1200",
+      "PeriodTime": "80",
+      "NameItemEvent": "Роем землю"
+    }
+  }
+}
